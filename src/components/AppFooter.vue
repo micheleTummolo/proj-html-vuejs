@@ -1,5 +1,11 @@
 <script>
+import { store } from '../store';
 export default {
+    data() {
+        return {
+            store
+        }
+    },
 
 }
 </script>
@@ -7,35 +13,23 @@ export default {
     <div class="footer_container pt-5">
         <div class="row row-cols-4 pt-5 mb-5 footer_top">
             <div class="col">
-                <h4 class="mb-3">CONTACT INFO</h4>
+                <h4 class="mb-3">{{ store.footer[0].heading }}</h4>
                 <ul class="p-0">
-                    <li class="d-flex"><img src="../assets/images/footer-location-dot-solid.svg"
-                            alt="footer-location-dot-solid.svg">
-                        2/45 Tower Street. New York USA</li>
-                    <li class="d-flex"><img src="../assets/images/footer-phone-solid.svg"
-                            alt="footer-phone-solid.svg">Call Us On 0800 840 1010</li>
-                    <li class="d-flex"><img src="../assets/images/footer-envelope-soli.svg"
-                            alt="footer-envelope-soli.svg">Demo@Example.Com</li>
+                    <li v-for="(item, index) in store.footer[0].items" class="d-flex"><img
+                            :src="'./src/assets/images/' + item.img" :alt="item.img">
+                        {{ item.text }}</li>
                 </ul>
             </div>
             <div class="col">
-                <h4 class="mb-3">INFORMATION</h4>
+                <h4 class="mb-3">{{ store.footer[1].heading }}</h4>
                 <ul class="p-0">
-                    <li>Product Support</li>
-                    <li>Checkout</li>
-                    <li>Report Abuse</li>
-                    <li>Redeem Voucher</li>
-                    <li>Order Status</li>
+                    <li v-for="(item, index) in store.footer[1].items">{{ item }}</li>
                 </ul>
             </div>
             <div class="col">
-                <h4 class="mb-3">USEFUL LINKS</h4>
+                <h4 class="mb-3">{{ store.footer[2].heading }}</h4>
                 <ul class="p-0">
-                    <li>Policies & Rules</li>
-                    <li>Privacy Policy</li>
-                    <li>License Policy</li>
-                    <li>My Account</li>
-                    <li>Locality</li>
+                    <li v-for="(item, index) in store.footer[2].items">{{ item }}</li>
                 </ul>
             </div>
             <div class="col">
@@ -65,6 +59,7 @@ export default {
         h4 {
             color: #ffffff;
             font-size: .8rem;
+            text-transform: uppercase;
         }
 
         .mail_input {
