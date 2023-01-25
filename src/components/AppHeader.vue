@@ -9,7 +9,7 @@ export default {
 }
 </script>
 <template lang="">
-    <nav class="container-fluid py-4 px-4 d-flex justify-content-between">
+    <nav class="container-fluid py-4 px-4 d-flex justify-content-between fixed-top">
         <div class="logo_container">
             <a href="#">
                 <img src="../assets/images/logo.svg" alt="logo" class="logo_img">
@@ -48,8 +48,9 @@ export default {
 </template>
 <style lang="scss">
 nav {
-    height: 85pxpx;
+    height: 85px;
     background-color: #ffffff;
+    box-shadow: 0px 3px 50px -24px #000000;
 
     .logo_container {
         width: 15%;

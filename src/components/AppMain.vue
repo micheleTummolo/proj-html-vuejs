@@ -1,11 +1,13 @@
 <script>
+import AppWhatWeDo from './AppWhatWeDo.vue';
 export default {
-
+    components: {
+        AppWhatWeDo,
+    }
 }
 </script>
 <template lang="">
-    <div>
-    </div>
+    <AppWhatWeDo></AppWhatWeDo>
 </template>
 <style lang="">
     
