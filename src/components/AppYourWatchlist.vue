@@ -63,7 +63,7 @@ export default {
 </template>
 <style lang="scss">
 .container_whatclist {
-    padding: 6rem 10rem;
+    padding: 6rem 10rem 3rem;
 
     h5 {
         font-size: .7rem;
