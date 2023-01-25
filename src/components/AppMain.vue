@@ -5,7 +5,7 @@ import AppYourWatchlist from './AppYourWatchlist.vue';
 import AppNumber from './AppNumber.vue';
 import AppTeam from './AppTeam.vue';
 import AppCarousel from './AppCarousel.vue';
-
+import AppNews from './AppNews.vue';
 export default {
     components: {
         AppWhatWeDo,
@@ -14,6 +14,7 @@ export default {
         AppNumber,
         AppTeam,
         AppCarousel,
+        AppNews,
     }
 }
 </script>
@@ -24,6 +25,7 @@ export default {
     <AppNumber></AppNumber>
     <AppTeam></AppTeam>
     <AppCarousel></AppCarousel>
+    <AppNews></AppNews>
 </template>
 <style lang="">
     
