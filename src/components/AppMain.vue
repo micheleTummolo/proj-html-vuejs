@@ -7,6 +7,7 @@ import AppTeam from './AppTeam.vue';
 import AppCarousel from './AppCarousel.vue';
 import AppNews from './AppNews.vue';
 import AppCentralIcons from './AppCentralIcons.vue';
+import AppColaborate from './AppCollaborate.vue';
 
 export default {
     components: {
@@ -18,6 +19,7 @@ export default {
         AppCarousel,
         AppNews,
         AppCentralIcons,
+        AppColaborate,
     }
 }
 </script>
@@ -30,6 +32,7 @@ export default {
     <AppCarousel></AppCarousel>
     <AppNews></AppNews>
     <AppCentralIcons></AppCentralIcons>
+    <AppColaborate></AppColaborate>
 </template>
 <style lang="">
     
