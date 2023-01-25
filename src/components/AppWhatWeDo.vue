@@ -93,6 +93,7 @@ export default {
         font-size: .7rem;
         font-weight: 400;
         line-height: 2;
+        color: #666666;
     }
 }
 </style>
