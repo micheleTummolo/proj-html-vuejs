@@ -6,6 +6,8 @@ import AppNumber from './AppNumber.vue';
 import AppTeam from './AppTeam.vue';
 import AppCarousel from './AppCarousel.vue';
 import AppNews from './AppNews.vue';
+import AppCentralIcons from './AppCentralIcons.vue';
+
 export default {
     components: {
         AppWhatWeDo,
@@ -15,6 +17,7 @@ export default {
         AppTeam,
         AppCarousel,
         AppNews,
+        AppCentralIcons,
     }
 }
 </script>
@@ -26,6 +29,7 @@ export default {
     <AppTeam></AppTeam>
     <AppCarousel></AppCarousel>
     <AppNews></AppNews>
+    <AppCentralIcons></AppCentralIcons>
 </template>
 <style lang="">
     
