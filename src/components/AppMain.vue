@@ -4,6 +4,7 @@ import AppAboutAs from './AppAboutAs.vue';
 import AppYourWatchlist from './AppYourWatchlist.vue';
 import AppNumber from './AppNumber.vue';
 import AppTeam from './AppTeam.vue';
+import AppCarousel from './AppCarousel.vue';
 
 export default {
     components: {
@@ -12,6 +13,7 @@ export default {
         AppYourWatchlist,
         AppNumber,
         AppTeam,
+        AppCarousel,
     }
 }
 </script>
@@ -21,6 +23,7 @@ export default {
     <AppYourWatchlist></AppYourWatchlist>
     <AppNumber></AppNumber>
     <AppTeam></AppTeam>
+    <AppCarousel></AppCarousel>
 </template>
 <style lang="">
     
