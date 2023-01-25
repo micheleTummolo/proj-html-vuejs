@@ -50,6 +50,8 @@ export default {
     </div>
 </template>
 <style lang="scss">
+@use '../styles/partials/mixins' as *;
+
 .footer_container {
     background-color: #111111;
     padding: 0 10rem;
@@ -71,12 +73,7 @@ export default {
         }
 
         .mail_button {
-            padding: .5rem 1.3rem;
-            border: 0;
-            background-color: #ffffff;
-            font-size: 0.7rem;
-            color: #111111;
-            font-weight: 600;
+            @include button_white;
         }
 
         p {
