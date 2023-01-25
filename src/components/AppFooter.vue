@@ -44,7 +44,7 @@ export default {
         </div>
         <div class="row footer_bottom pb-4">
             <div class="col-12 text-center">
-                <h5 class="m-0 pt-3">@ 2023 All Rights Reserved. Developed By TemplateMela</h5>
+                <h5 class="m-0 pt-3">&copy; 2023 All Rights Reserved. Developed By TemplateMela</h5>
             </div>
         </div>
     </div>

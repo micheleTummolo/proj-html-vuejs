@@ -1,6 +1,45 @@
 import { reactive } from 'vue';
 
 export const store = reactive({
+    header: [
+        {
+            link: "home",
+            dropdown: false,
+        },
+        {
+            link: "blog",
+            dropdown: false,
+        },
+        {
+            link: "pages",
+            dropdown: true,
+            sublink: [
+                "service",
+                "our work flow",
+                "video thumbnail type",
+            ]
+        },
+        {
+            link: "about",
+            dropdown: false,
+        },
+        {
+            link: "contacts",
+            dropdown: false,
+        },
+        {
+            link: "gallery",
+            dropdown: false,
+        },
+        {
+            link: "shop",
+            dropdown: true,
+            sublink: [
+                "shop pages",
+                "product type",
+            ]
+        },
+    ],
     footer: [
         {
             heading: "contact info",
@@ -40,5 +79,11 @@ export const store = reactive({
                 "Locality"
             ]
         },
+    ],
+    socials: [
+        "image (9).svg",
+        "image (10).svg",
+        "image (11).svg",
+        "image (12).svg",
     ]
 });

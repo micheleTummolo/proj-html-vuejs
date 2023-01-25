@@ -1,6 +1,11 @@
 <script>
+import { store } from '../store';
 export default {
-
+    data() {
+        return {
+            store
+        }
+    },
 }
 </script>
 <template lang="">
@@ -12,44 +17,19 @@ export default {
         </div>
         <div class="menu_container d-flex align-items-center justify-content-center">
             <ul class="d-flex p-0 m-0">
-                <li class="me-4">
-                    <a href="">Home</a>
-                </li>
-                <li class="me-4">
-                    <a href="">Blog</a>
-                </li>
-                <!-- Dropdown -->
-                <li class="me-4">
-                    <div data-bs-toggle="dropdown" aria-expanded="false">
-                        <a href="#">Pages</a>
-                        <img src="../assets/images/image (7).svg" alt="#" class="d-inline-block arrow_dropdown">
-                    </div>
-                    <ul class="dropdown-menu dropdown_style p-0">
-                        <li><a class="dropdown-item p-3" href="#">SERVICES</a></li>
-                        <li><a class="dropdown-item p-3" href="#">OUR WORK FLOW</a></li>
-                        <li><a class="dropdown-item p-3" href="#">VIDEO THUMBNAIL TYPE</a></li>
-                    </ul>
-                </li>
+                <li v-for="(item, index) in store.header" class="me-4">
 
-                <li class="me-4">
-                    <a href="">About</a>
-                </li>
-                <li class="me-4">
-                    <a href="">Contacts</a>
-                </li>
-                <li class="me-4">
-                    <a href="">Gallery</a>
-                </li>
-                <!-- Dropdown -->
-                <li class="me-4">
-                    <div data-bs-toggle="dropdown" aria-expanded="false">
-                        <a href="#">Shop</a>
-                        <img src="../assets/images/image (7).svg" alt="#" class="d-inline-block arrow_dropdown">
+                    <div v-if="(item.dropdown)">
+                        <div data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="#">{{item.link}}</a>
+                            <img src="../assets/images/image (7).svg" alt="#" class="d-inline-block arrow_dropdown">
+                        </div>
+                        <ul class="dropdown-menu dropdown_style p-0">
+                            <li v-for="(itm, id) in item.sublink"><a class="dropdown-item p-3" href="#">{{itm}}</a></li>
+                        </ul>
                     </div>
-                    <ul class="dropdown-menu dropdown_style p-0">
-                        <li><a class="dropdown-item p-3" href="#">SHOP PAGES</a></li>
-                        <li><a class="dropdown-item p-3" href="#">PRODUCT TYPE</a></li>
-                    </ul>
+
+                    <a v-else href="">{{item.link}}</a>
                 </li>
             </ul>
         </div>
@@ -60,10 +40,7 @@ export default {
                 </div>
             </div>
             <div class="social_icons_container d-flex justify-content-between align-items-center ps-3">
-                <img src="../assets/images/image (9).svg" alt="#" class="social_icon">
-                <img src="../assets/images/image (10).svg" alt="#" class="social_icon">
-                <img src="../assets/images/image (11).svg" alt="#" class="social_icon">
-                <img src="../assets/images/image (12).svg" alt="#" class="social_icon">
+                <img v-for="(it, i) in store.socials" :src="'./src/assets/images/' + it" :alt="it" class="social_icon">
             </div>
         </div>
 
