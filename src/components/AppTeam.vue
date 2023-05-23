@@ -18,28 +18,28 @@ export default {
         <div class="row row-cols-4 mt-4">
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Team-01.jpg" alt="">
+                    <img src="/images/Team-01.jpg" alt="">
                 </div>
                 <h4>FABRICIO GUERRA</h4>
                 <p class="text-center">Main Director</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Team-02.jpg" alt="">
+                    <img src="/images/Team-02.jpg" alt="">
                 </div>
                 <h4>UMBERTO PAGODA</h4>
                 <p class="text-center">Main Writer</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Team-03.jpg" alt="">
+                    <img src="/images/Team-03.jpg" alt="">
                 </div>
                 <h4>GLORIA RICCASSO</h4>
                 <p class="text-center">Main Producer</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Team-04.jpg" alt="">
+                    <img src="/images/Team-04.jpg" alt="">
                 </div>
                 <h4>LIO NAPOIN</h4>
                 <p class="text-center">Cameraman</p>

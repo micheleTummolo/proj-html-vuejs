@@ -17,37 +17,37 @@ export default {
         </div>
         <div class="row row-cols-3 mt-4">
             <div class="col my_card d-flex flex-column align-items-center mb-3">
-                <img src="../assets/images/image (14).svg" alt="" class="mb-4">
+                <img src="/images/image_14.svg" alt="" class="mb-4">
                 <h4>ARRAY OF EQUIPMENT</h4>
                 <p class="text-center">Lorem ipsum dolor amet, consectetur adipiscing.
                     Pellentesque ultricies justo tellus.</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
-                <img src="../assets/images/image (16).svg" alt="" class="mb-4">
+                <img src="/images/image_16.svg" alt="" class="mb-4">
                 <h4>NEW TECHNOLOGIES</h4>
                 <p class="text-center">Lorem ipsum dolor amet, consectetur adipiscing.
                     Pellentesque ultricies justo tellus.</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
-                <img src="../assets/images/image (18).svg" alt="" class="mb-4">
+                <img src="/images/image_18.svg" alt="" class="mb-4">
                 <h4>VERSITILE ACTORS</h4>
                 <p class="text-center">Lorem ipsum dolor amet, consectetur adipiscing.
                     Pellentesque ultricies justo tellus.</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
-                <img src="../assets/images/image (15).svg" alt="" class="mb-4">
+                <img src="/images/image_15.svg" alt="" class="mb-4">
                 <h4>TOP DIRECTORS</h4>
                 <p class="text-center">Lorem ipsum dolor amet, consectetur adipiscing.
                     Pellentesque ultricies justo tellus.</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
-                <img src="../assets/images/image (17).svg" alt="" class="mb-4">
+                <img src="/images/image_17.svg" alt="" class="mb-4">
                 <h4>MINUTE EDITING</h4>
                 <p class="text-center">Lorem ipsum dolor amet, consectetur adipiscing.
                     Pellentesque ultricies justo tellus.</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
-                <img src="../assets/images/image (19).svg" alt="" class="mb-4">
+                <img src="/images/image_19.svg" alt="" class="mb-4">
                 <h4>VERSITILE ACTORS</h4>
                 <p class="text-center">Lorem ipsum dolor amet, consectetur adipiscing.
                     Pellentesque ultricies justo tellus.</p>

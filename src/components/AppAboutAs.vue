@@ -23,7 +23,7 @@ export default {
 
 .container_about_us {
     padding: 4rem 10rem;
-    background-image: url('../assets/images/About-Us.jpg');
+    background-image: url('/images/About-Us.jpg');
     background-size: cover;
     color: #ffffff;
 

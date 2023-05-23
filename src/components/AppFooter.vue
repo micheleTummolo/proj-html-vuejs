@@ -15,8 +15,8 @@ export default {
             <div class="col">
                 <h4 class="mb-3">{{ store.footer[0].heading }}</h4>
                 <ul class="p-0">
-                    <li v-for="(item, index) in store.footer[0].items" class="d-flex"><img
-                            :src="'./src/assets/images/' + item.img" :alt="item.img">
+                    <li v-for="(item, index) in store.footer[0].items" class="d-flex"><img :src="'/images/' + item.img"
+                            :alt="item.img">
                         {{ item.text }}</li>
                 </ul>
             </div>

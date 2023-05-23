@@ -18,42 +18,42 @@ export default {
         <div class="row row-cols-3 mt-4">
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Gallery-01.jpg" alt="">
+                    <img src="/images/Gallery-01.jpg" alt="">
                 </div>
                 <h4>SEVENTEENTH SUMMER</h4>
                 <p class="text-center">Commercial, Music Video.</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Gallery-02.jpg" alt="">
+                    <img src="/images/Gallery-02.jpg" alt="">
                 </div>
                 <h4>A MESSAGE TO SPACE</h4>
                 <p class="text-center">Short Film</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Gallery-03.jpg" alt="">
+                    <img src="/images/Gallery-03.jpg" alt="">
                 </div>
                 <h4>THE MOST BEAUTIFUL THING</h4>
                 <p class="text-center">Music Video</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Gallery-04.jpg" alt="">
+                    <img src="/images/Gallery-04.jpg" alt="">
                 </div>
                 <h4>PERMISSION TO SPEAK</h4>
                 <p class="text-center">Documentary</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Gallery-05.jpg" alt="">
+                    <img src="/images/Gallery-05.jpg" alt="">
                 </div>
                 <h4>EXPLORE OUR SPACE</h4>
                 <p class="text-center">Film noir</p>
             </div>
             <div class="col my_card d-flex flex-column align-items-center mb-3">
                 <div class="img_container mb-4">
-                    <img src="../assets/images/Gallery-06.jpg" alt="">
+                    <img src="/images/Gallery-06.jpg" alt="">
                 </div>
                 <h4>FILM PRODUCTION</h4>
                 <p class="text-center">Blaxploitation</p>

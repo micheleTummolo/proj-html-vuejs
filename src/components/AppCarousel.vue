@@ -10,7 +10,7 @@ export default {
                 <div class="row">
                     <div class="col d-flex justify-content-center">
                         <div class="image_container p-2 mb-2">
-                            <img src="../assets/images/image (20).svg" alt="">
+                            <img src="/images/image_20.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ export default {
                 <div class="row d-flex justify-content-center">
                     <div class="col-2 d-flex justify-content-end p-0">
                         <div>
-                            <img src="../assets/images/01.jpg" alt="" class="profile_img">
+                            <img src="/images/01.jpg" alt="" class="profile_img">
                         </div>
                     </div>
                     <div class="col-2 d-flex align-items-center ms-2 p-0">
@@ -50,7 +50,7 @@ export default {
 
 .container_carousel {
     padding: 4rem 10rem;
-    background-image: url('../assets/images/Parallax-02.jpg');
+    background-image: url('/images/Parallax-02.jpg');
     background-size: cover;
     color: #ffffff;
 

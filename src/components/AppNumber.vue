@@ -28,7 +28,7 @@ export default {
 <style lang="scss">
 .container_number {
     padding: 4rem 10rem;
-    background-image: url('../assets/images/Parallax-01.jpg');
+    background-image: url('/images/Parallax-01.jpg');
     background-size: cover;
     background-position: center;
     color: #ffffff;

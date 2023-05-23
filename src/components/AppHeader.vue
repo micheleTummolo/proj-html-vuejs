@@ -12,7 +12,7 @@ export default {
     <nav class="container-fluid py-4 px-4 d-flex justify-content-between fixed-top">
         <div class="logo_container">
             <a href="#">
-                <img src="../assets/images/logo.svg" alt="logo" class="logo_img">
+                <img src="/images/logo.svg" alt="logo" class="logo_img">
             </a>
         </div>
         <div class="menu_container d-flex align-items-center justify-content-center">
@@ -22,7 +22,7 @@ export default {
                     <div v-if="(item.dropdown)">
                         <div data-bs-toggle="dropdown" aria-expanded="false">
                             <a href="#">{{item.link}}</a>
-                            <img src="../assets/images/image (7).svg" alt="#" class="d-inline-block arrow_dropdown">
+                            <img src="/images/image_7.svg" alt="#" class="d-inline-block arrow_dropdown">
                         </div>
                         <ul class="dropdown-menu dropdown_style p-0">
                             <li v-for="(itm, id) in item.sublink"><a class="dropdown-item p-3" href="#">{{itm}}</a></li>
@@ -36,11 +36,11 @@ export default {
         <div class="social_container d-flex ">
             <div class="search d-flex align-items-center">
                 <div class="search_icon_container">
-                    <img src="../assets/images/image (8).svg" alt="#" class="social_icon">
+                    <img src="/images/image_8.svg" alt="#" class="social_icon">
                 </div>
             </div>
             <div class="social_icons_container d-flex justify-content-between align-items-center ps-3">
-                <img v-for="(it, i) in store.socials" :src="'./src/assets/images/' + it" :alt="it" class="social_icon">
+                <img v-for="(it, i) in store.socials" :src="'/images/' + it" :alt="it" class="social_icon">
             </div>
         </div>
 

@@ -18,7 +18,7 @@ export default {
         <div class="row row-cols-3 mt-4">
             <div class="col my_card mb-3">
                 <div class="img_container mb-2">
-                    <img src="../assets/images/blog07.jpg" alt="">
+                    <img src="/images/blog07.jpg" alt="">
                 </div>
                 <p class="mb-2">November 06 , 2021 By Admin</p>
                 <h4>RECAP YOUR LATEST COMPANY EVENT</h4>
@@ -27,7 +27,7 @@ export default {
             </div>
             <div class="col my_card mb-3">
                 <div class="img_container mb-2">
-                    <img src="../assets/images/blog01.jpg" alt="">
+                    <img src="/images/blog01.jpg" alt="">
                 </div>
                 <p class="mb-2">May 27 , 2022 By Admin</p>
                 <h4>HOW TO EDIT A FILM SCORE TO SERVE</h4>
@@ -36,7 +36,7 @@ export default {
             </div>
             <div class="col my_card mb-3">
                 <div class="img_container mb-2">
-                    <img src="../assets/images/blog02.jpg" alt="">
+                    <img src="/images/blog02.jpg" alt="">
                 </div>
                 <p class="mb-2">May 07 , 2022 By Admin</p>
                 <h4>ARE YOU READY TO MAKE IT AWESOME</h4>
