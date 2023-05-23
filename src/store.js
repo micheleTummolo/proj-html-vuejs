@@ -81,9 +81,9 @@ export const store = reactive({
         },
     ],
     socials: [
-        "image (9).svg",
-        "image (10).svg",
-        "image (11).svg",
-        "image (12).svg",
+        "image_9.svg",
+        "image_10.svg",
+        "image_11.svg",
+        "image_12.svg",
     ]
 });
