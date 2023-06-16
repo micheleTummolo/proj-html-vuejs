@@ -17,7 +17,7 @@ export default {
                     lacus imperdiet.</p>
             </div>
             <div class="col-6 my-4 px-4">
-                <form action="">
+                <form name="contact" method="POST" data-netlify="true">
                     <div class="row mb-4">
                         <div class="col-6">
                             <input type="text" name="" id="" placeholder="Your Name">
