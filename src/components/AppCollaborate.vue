@@ -17,17 +17,6 @@ export default {
                     lacus imperdiet.</p>
             </div>
             <div class="col-6 my-4 px-4">
-                <form name="contact" netlify>
-                    <p>
-                        <label>Name <input type="text" name="name" /></label>
-                    </p>
-                    <p>
-                        <label>Email <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                        <button type="submit">Send</button>
-                    </p>
-                </form>
                 <form name="contact">
                     <div class="row mb-4">
                         <div class="col-6">
